@@ -108,6 +108,7 @@ ol {
 
 .search-form__label {
   line-height: 40px;
+  margin-right: 9px;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -132,10 +133,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   font-size: 18px;
   line-height: 40.6px;
   cursor: pointer;
-}
-
-.search-form__label {
-  margin-right: 9px;
 }
 
 .search-form__label:last-child {
